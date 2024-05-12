@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:text="Edit Daily Task"
+        android:text="Edit Your Daily Task"
         android:textColor="@color/orange"
         android:textSize="24sp"/>
 
@@ -30,7 +30,7 @@
         android:id="@+id/updatetitleEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Enter the title"
+        android:hint="Enter the Date or Time"
         android:padding="12dp"
         android:textSize="20sp"
         android:layout_below="@+id/editNoteHeading"
@@ -42,7 +42,7 @@
         android:id="@+id/updatecontentEditText"
         android:layout_width="400dp"
         android:layout_height="300dp"
-        android:hint="Enter Description"
+        android:hint="Enter Task or Any Duty"
         android:gravity="top"
         android:padding="12dp"
         android:textSize="18sp"
