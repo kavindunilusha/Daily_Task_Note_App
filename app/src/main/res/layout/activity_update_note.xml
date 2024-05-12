@@ -12,15 +12,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:text="Edit Note."
+        android:text="Edit Daily Task"
         android:textColor="@color/orange"
         android:textSize="24sp"/>
 
     <ImageView
 
         android:id="@+id/updatesaveButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
         android:src="@drawable/baseline_check_24"
         android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/editNoteHeading"
@@ -40,8 +40,8 @@
 
     <EditText
         android:id="@+id/updatecontentEditText"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
         android:hint="Enter Description"
         android:gravity="top"
         android:padding="12dp"
