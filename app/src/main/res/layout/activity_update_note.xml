@@ -11,6 +11,7 @@
         android:id="@+id/editNoteHeading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
         android:layout_alignParentTop="true"
         android:text="Edit Your Daily Task"
         android:textColor="@color/orange"
